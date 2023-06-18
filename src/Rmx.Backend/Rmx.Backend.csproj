@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+
+    <Nullable>enable</Nullable>
+
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.7" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Rmx.Backend.Domain\Rmx.Backend.Domain.csproj" />
+    <ProjectReference Include="..\Rmx.Backend.Infrastructure\Rmx.Backend.Infrastructure.csproj" />
+    <ProjectReference Include="..\Rmx.Backend.Shared\Rmx.Backend.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
