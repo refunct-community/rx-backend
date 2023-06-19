@@ -14,9 +14,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Rmx.Backend.Domain\Rmx.Backend.Domain.csproj" />
-    <ProjectReference Include="..\Rmx.Backend.Infrastructure\Rmx.Backend.Infrastructure.csproj" />
-    <ProjectReference Include="..\Rmx.Backend.Shared\Rmx.Backend.Shared.csproj" />
+    <ProjectReference Include="..\Rx.Backend.Domain\Rx.Backend.Domain.csproj" />
+    <ProjectReference Include="..\Rx.Backend.Infrastructure\Rx.Backend.Infrastructure.csproj" />
+    <ProjectReference Include="..\Rx.Backend.Shared\Rx.Backend.Shared.csproj" />
   </ItemGroup>
 
 </Project>
