@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Rmx.Backend.Domain\Rmx.Backend.Domain.csproj" />
+    <ProjectReference Include="..\Rx.Backend.Domain\Rx.Backend.Domain.csproj" />
   </ItemGroup>
 
 </Project>
