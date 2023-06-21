@@ -1,0 +1,49 @@
+name: New Task
+description: Creates a new mandatory task for us to implement.
+title: "[Task]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A task describes one small step towards a new implementation and is usually one part of a larger problem.
+  - type: input
+    id: parent-issue
+    attributes:
+      label: Parent Issue
+      description: |
+        If this task is part of a feature implementation, specify its issue number here.
+      value: >
+        #
+    validations:
+      required: false
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: |
+        Provide a detailed description of this task's purpose.
+        * When creating or editing an entity, describe all of its members.
+        * When creating or editing an API endpoint, specify the route, add request and response bodies, and specify all possible response codes.
+      placeholder: Describe the task.
+    validations:
+      required: true
+  - type: textarea
+    id: risks
+    attributes:
+      label: Risks
+      description: |
+        Specify all possible breaking changes or performance and security risks this task may introduce.
+      placeholder: Risks and breaking changes.
+    validations:
+      required: true
+  - type: textarea
+    id: related-issues
+    attributes:
+      label: Related Issues
+      description: |
+        Add any issues that this task is in relation to; bugs it may fix, other tasks it may depend on.
+      placeholder: |
+        - [ ] #
+    validations:
+      required: false
+

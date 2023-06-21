@@ -1,0 +1,33 @@
+name: New Feature
+description: Creates a new feature issue for us to keep track of partial tasks in.
+title: "[Feature]: "
+body:
+  - type: textarea
+    id: overview
+    attributes:
+      label: Overview
+      description: |
+        Provide a summary of what this feature implements.
+      placeholder: Description and intended outcome.
+    validations:
+      required: true
+  - type: textarea
+    id: tasks
+    attributes:
+      label: Tasks
+      description: |
+        Collect all related tasks in a task list here.
+        Add more tasks as they get created.
+      value: |
+        - [ ] #
+    validations:
+      required: false
+  - type: textarea
+    id: future-ideas
+    attributes:
+      label: Future Ideas
+      description: |
+        Put any additional ideas you may have up for discussion.
+      placeholder: Future ideas.
+    validations:
+      required: false
