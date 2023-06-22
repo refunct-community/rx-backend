@@ -13,7 +13,7 @@ body:
       description: |
         If this task is part of a feature implementation, specify its issue number here.
       value: >
-        #
+        - #
     validations:
       required: false
   - type: textarea
@@ -43,7 +43,7 @@ body:
       description: |
         Add any issues that this task is in relation to; bugs it may fix, other tasks it may depend on.
       placeholder: |
-        - [ ] #
+        - #
     validations:
       required: false
 
